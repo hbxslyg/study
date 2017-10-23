@@ -1,0 +1,192 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+    margin:0;
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6,em,i {font-style:normal;
+    font-weight:normal;}
+ul,ol,li { list-style-type:none;}
+a {text-decoration:none;}
+
+body{
+    white-space: nowrap;
+}
+
+.top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #5ec0ce;
+    z-index:900;
+}
+.top .top-in{
+    width: 50%;
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 7px;
+    background-color: #53a9b2;
+    border-radius: 5px;
+    text-align: center;
+}
+.top .top-in a{
+    display: inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    width: 50%;
+    height: 36px;
+    font-size: 16px;
+    line-height:36px;
+    color: white;
+    border-radius: 5px;
+}
+.top .top-in a:nth-child(2){
+    color: #5ec0ce;
+    background-color: white;
+}
+.top img{
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+    width: 28px;
+    height: 30px;
+}
+
+/*内容*/
+.content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    color: #bdbdbd;
+}
+.content dt{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px solid #bdbdbd;
+}
+.content .dt-left{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+.content .dt-left:hover dd {
+    font-size: 14px;
+    height: 40px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.content .dt-left dd{
+    font-size: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+
+.content .dt-left img:first-of-type{
+    position: absolute;
+    top: 45%;
+    right: 2%;
+    width: 10px;
+    height: 8x;
+}
+.content .dt-left img:last-of-type{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 40px;
+}
+.content>dl>dd{
+    box-sizing: border-box;
+    border-bottom: 1px solid #bdbdbd;
+}
+.content .con-left{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.content .con-left p{
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    box-sizing: border-box;
+    width: 100%;
+}
+.content .con-left p:nth-child(2){
+    padding-left: 20px;
+    color: #000;
+}
+.content .con-left img{
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+}
+.content .con-right{
+    display: inline-block;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    box-sizing: border-box;
+    padding-right: 10px;
+    width: 50%;
+    font-weight:bold;
+    font-size: 14px;
+    vertical-align: 150%;
+    text-align: right;
+}
+.content .con-right span{
+    font-weight:normal;
+    display: inline-block;
+    color: red;
+}
+
+
+/*底部*/
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #bdbdbd;
+    background-color: #f8fafb;
+}
+.footer div{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+    text-align: center;
+    /*background-color: green;*/
+}
+.footer img{
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+}
+.footer .foot-left{
+    left: 20%;
+    color: #5ec0ce;
+}
+.footer .foot-center{
+    left: 50%;
+    margin-left:-25px;
+    border-radius: 50%;
+    background-color: #5ec0ce;
+}
+.footer .foot-right{
+    right: 20%;
+}
+.footer .foot-center img{
+    margin-top: 12px;
+}

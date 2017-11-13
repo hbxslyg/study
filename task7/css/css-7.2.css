@@ -1,0 +1,181 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+    margin:0;
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6,em,i {font-style:normal;
+    font-weight:normal;}
+ul,ol,li { list-style-type:none;}
+a {text-decoration:none;}
+
+body{
+    background-color: #33bdde;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+    line-height:50px;
+    background-color: #34bdde;
+    z-index:999;
+}
+.header img{
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    width: 24px;
+    height: 24px;
+}
+.header img:first-child{
+    left: 10px;
+}
+.header img:last-child{
+    right: 10px;
+}
+.header h1 {
+    font-size: 24px;
+}
+
+/*内容*/
+.content{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+.content .cont-top{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #bae9f4;
+}
+.content .cont-top p{
+    color: #666;
+    font-size: 16px;
+    padding-left: 30px;
+}
+.content .cont-top img:nth-child(2){
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+.content .cont-top img:nth-child(3){
+    position: absolute;
+    bottom:-12px;
+    left: 40px;
+    width: 15px;
+    height: 12px;
+}
+
+
+.content .cont-main>p{
+    margin-left: 40px;
+    color: white;
+    font-size: 14px;
+    line-height: 60px;
+}
+
+.content .cont-info{
+    display: inline-block;
+    margin: 20px;
+    margin-bottom: 30px;
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.content  .cont-info:hover{
+    margin-bottom: 0;
+    height: 110px;
+}
+.content  .cont-info .head-portrait{
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background-color: #ffa602;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.content  .cont-info .head-portrait .status{
+    font-size: 16px;
+    line-height: 58px;
+}
+.content  .cont-info .head-portrait .number{
+    color: white;
+    font-size: 14px;
+    line-height:18px;
+    background-color: #763901;
+}
+.content  .cont-info ul{
+    display: flex;
+    justify-content: space-between;
+    left: 4px;
+    top: 50px;
+}
+.content  .cont-info ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.content  .cont-info li{
+    width: 0;
+    height: 0;
+}
+
+.content  .cont-info:hover li{
+    width: 18px;
+    height: 18px;
+}
+.content  .cont-info li:nth-child(1){
+    background-image: url(../images/jlt.png);
+    background-repeat: no-repeat;
+    background-position: 1 0;
+    background-size: 80px 18px;
+}
+.content  .cont-info li:nth-child(2){
+    background-image: url(../images/jlt.png);
+    background-repeat: no-repeat;
+    background-position: -21px 0;
+    background-size: 80px 18px;
+}
+.content  .cont-info li:nth-child(3){
+    background-image: url(../images/jlt.png);
+    background-repeat: no-repeat;
+    background-position: -41px 0;
+    background-size: 80px 18px;
+}
+.content  .cont-info li:nth-child(4){
+    background-image: url(../images/jlt.png);
+    background-repeat: no-repeat;
+    background-position: -62px 0;
+    background-size: 80px 18px;
+}
+
+/*底部*/
+.footer{
+    position: fixed;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 15px 40px;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: #34bdde;
+}
+.footer a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+    background-color: #ffa600;
+
+}

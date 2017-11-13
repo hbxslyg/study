@@ -1,0 +1,139 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+    margin:0;
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6,em,i {font-style:normal;
+    font-weight:normal;}
+ul,ol,li { list-style-type:none;}
+a {text-decoration:none;}
+
+body{
+    background-color: #eff0f1;
+}
+.header{
+    position: fixed;
+    z-index:999;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #34bdde;
+}
+.header div{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    margin-top: -12px;
+    width: 30px;
+    height: 24px;
+}
+.header div>span{
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+}
+.header div>span:nth-child(2){
+    top: 10px;
+}
+.header div>span:nth-child(3){
+    top: 20px;
+}
+
+/*提示*/
+.content{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    width: 100%;
+    padding:15px 20px 0 20px;
+    box-sizing: border-box;
+}
+.content .hint{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    line-height: 80px;
+    color: #adaeaf;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid #dddedf;
+    
+    text-align: center;
+}
+.content .hint img{
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    top: 50%;
+    margin-top: -15px;
+    right: 10px;
+}
+.content dl{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #dddedf;
+    box-sizing: border-box;
+}
+.content dt:first-child{
+    width: 100%;
+    height: 50px;
+    font-size:20px;
+    color: #f9c164;
+    line-height: 50px;
+    background-color: white;
+    border-bottom: 1px solid #f9c164;
+}
+.content dd{
+    box-sizing: border-box;
+    width: 100%;
+    height: 120px;
+    padding:0 40px;
+    background-color: white;
+}
+.content dd>a{
+    display: inline-block;
+    margin: 15px 0;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    line-height: 70px;
+    background-color: #6dd2e9;
+}
+.content dd>p{
+    color: #9a9b9c;
+}
+.content dt:last-child{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+}
+.content ol{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 80px;
+    height: 12px;
+}
+.content ol li{
+    float: left;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #f0f1f1;
+}
+.content ol li:first-child{
+    background-color: #6dd2e9;
+}
+.content>img{
+    position: absolute;
+    width: 18px;
+    height: 30px;
+    top: 315px;
+    right: 30px;
+}
+

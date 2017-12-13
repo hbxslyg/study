@@ -1,0 +1,184 @@
+
+body,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,td,tt,p,a,span{padding: 0; margin: 0; color: #333; }
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.eare{
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 1200px;
+}
+
+.clearfix:after{
+    content:"";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.top{
+    height: 40px;
+
+}
+
+.top p{
+    display: inline-block;
+    line-height: 40px;
+}
+.top .t-img{
+    float: right;
+    height: 40px;
+}
+.top .t-img a{
+    margin-left: 15px;
+    line-height: 40px;
+}
+.top .t-img a img{
+    vertical-align: middle;
+}
+
+/*nav*/
+nav{
+    overflow: hidden;
+    background-color: green;
+}
+nav h1{
+    float: left;
+}
+nav a{
+    display: block;
+}
+nav img{
+    margin: 23px 0;
+}
+nav ul{
+    float: right;
+    height: 100px;
+    text-align: center;
+}
+nav ul li{
+    box-sizing: border-box;
+    float: left;
+    line-height: 100px;
+    height: 100px;
+}
+nav ul li a{
+    display: block;
+    width: 100px;
+    color: white;
+    font-size: 16px;
+}
+nav ul li:hover{
+    border-bottom: 3px solid #fff;
+}
+
+
+/*footer*/
+footer{
+    position: relative;
+    padding-top: 40px;
+    box-sizing: border-box;
+    height: 200px;
+    background-color: #396;
+}
+footer .f-top{
+    position: relative;
+    height: 120px;
+}
+footer .f-left {
+    float: left;
+    width: 360px;
+    height: 170px;
+}
+footer .f-left p{
+    color: #fff;
+}
+footer .f-left ul{
+    margin-top: 65px;
+}
+footer .f-left ul li{
+    float: left;
+    padding:0 5px;
+    line-height:12px;
+    border-right: 1px solid #fff;
+}
+footer .f-left ul li:last-child{
+    border: 0 solid #000;
+}
+footer .f-left ul li:first-child{
+    padding-left:0;
+}
+footer .f-left ul li a{
+    color: #fff;
+    font-size: 12px;
+}
+footer .f-left ul li a:hover{
+    text-decoration:underline;
+}
+footer .f-middle {
+    float: left;
+    width: 300px;
+}
+footer .f-middle p{
+    color: #fff;
+    margin-bottom: 30px;
+}
+footer .f-middle ul li{
+    margin-bottom: 20px;
+}
+footer .f-middle ul li a{
+    margin-right: 30px;
+    color: #fff;
+    font-size: 12px;
+}
+footer .f-middle ul li a:hover{
+    text-decoration: underline;
+}
+footer .f-right{
+    position: absolute;
+    right: 125px;
+}
+footer .f-right p{
+    text-align: center;
+    color: #fff;
+}
+footer .f-bottom{
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    text-align: center;
+}
+footer .f-bottom p{
+    line-height:30px;
+    font-size: 12px;
+    color: #fff;
+}
+footer .f-bottom p a{
+    color: #fff;
+}
+footer .f-bottom p a:hover{
+    text-decoration: underline;
+}
+
+/*subnav star*/
+.subnav {
+    padding-left: 20px;
+    line-height: 80px;
+    overflow: hidden;
+}
+.subnav ol li{
+    float: left;
+    font-size: 16px;
+}
+.subnav ol li.current a{
+    color: #29b078;
+}
+/*subnav end*/

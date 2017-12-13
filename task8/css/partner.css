@@ -1,0 +1,83 @@
+body{
+    background-color: #fbfbfb;
+}
+
+nav{
+    background-color: #26a26f;
+}
+
+/*banner*/
+.banner {
+    margin-bottom: 30px;
+    height: 250px;
+    background: url(../images/banner2.jpg) 0 center;
+}
+
+/*main*/
+.main {
+    overflow: hidden;
+    padding-bottom: 200px;
+}
+
+
+.main .sidebar {
+    float: left;
+    width: 305px;
+    line-height:60px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.main .sidebar h3{
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.main .sidebar ul li{
+
+}
+
+.main .sidebar ul li a{
+    padding-left: 100px;
+    color: #29b078;
+}
+.main .sidebar ul li a span{
+    display: inline-block;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid orange;
+}
+.main .sidebar ul li.current a{
+    color: orange;
+}
+.main .sidebar ul li.current a span{
+    background-color: orange;
+}
+.main .sidebar ul li:hover a{
+    color: orange;
+}
+.main .sidebar ul li:hover a span{
+    background-color: orange;
+}
+
+.main .content {
+    float: right;
+    padding: 20px 60px 50px;
+    width: 750px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    line-height: 32px;
+    border-radius: 5px;
+}
+.main .content>a{
+    float: left;
+    padding-top: 25px;
+    margin-right: 20px;
+}
+.main .content p{
+    margin: 20px 0;
+    text-indent: 2em;
+}

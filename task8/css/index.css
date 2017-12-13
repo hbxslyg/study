@@ -1,0 +1,270 @@
+body{
+    background-color: #fafafa;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+}
+.banner a{
+    display: block;
+}
+.banner a img{
+    width: 100%;
+}
+.banner div {
+    position: absolute;
+    top: 50%;
+    margin-top: -23px;
+}
+.banner div:hover{
+    transform: scale(1.1);
+}
+.banner .b-right{
+    left: 50%;
+    margin-left: -600px;
+
+}
+.banner .b-left{
+    right: 50%;
+    margin-right: -600px;
+}
+.banner ul{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.banner ul li{
+    display: inline-block;
+    margin:0 10px;
+}
+.banner ul li a{
+    display: inline-block;
+    background-size: border-box;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.banner ul li:first-child a{
+    background-color: #fff;
+}
+.banner ul li:hover a{
+    background-color: #fff;
+}
+
+/*main 主体顶部*/
+main {
+    padding-top: 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+main .m-top ul{
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 30px;
+    height: 265px;
+}
+main .m-top ul li{
+    float: left;
+    margin-right: 100px;
+    width: 225px;
+}
+main .m-top ul li h4{
+    margin: 30px;
+    font-size: 16px;
+}
+main .m-top ul li p{
+    text-align: left;
+    color: #999;
+}
+main .m-top>img{
+    position: relative;
+    left: -50px;
+}
+main .m-top .m-top-r{
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 50px;
+    width: 214px;
+    height: 265px;
+    text-align: left;
+    vertical-align: top;
+}
+main .m-top .m-top-r span{
+    display: inline-block;
+    margin-top: 30px;
+    color: #396;
+    font-weight:bold;
+}
+main .m-top .m-top-r span img{
+    margin-right: 10px;
+}
+main .m-top .m-top-r p{
+    margin-top: 10px;
+    color: #999;
+}
+main .study{
+    padding-top: 100px;
+    overflow: hidden;
+}
+main .study .s-small{
+    display: inline-block;
+    margin: 45px 0;
+    width: 230px;
+}
+main .study h3{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+main .study .s-small span{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    line-height:70px;
+    font-weight:bold;
+    color: #396;
+    font-size: 16px;
+    background-color: #fff;
+    vertical-align: middle;
+    box-shadow: 8px 8px 16px #ddd;
+}
+main .study .s-small:hover span{
+    font-size: 24px;
+}
+main .study .s-small p{
+    display: inline-block;
+    margin-left: 10px;
+    text-align: left;
+    vertical-align: middle;
+    width: 150px;
+    color: #999;
+
+}
+main .study>img{
+    display: inline-block;
+    margin: 65px 27px;
+    width: 30px;
+    vertical-align: middle;
+}
+
+/*show 学员展示*/
+main .show h3{
+    margin: 70px;
+    font-size: 16px;
+}
+
+main .show .show-ul li{
+    float: left;
+    margin-left: 40px;
+    box-sizing: border-box;
+    padding:0 40px;
+    width: 270px;
+    height: 370px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+main .show .show-ul li:first-child{
+    margin-left:0;
+}
+main .show .show-ul li:hover{
+    transform: scale(1.1);
+}
+main .show .show-ul li img{
+    margin: 20px;
+}
+main .show .show-ul li h4 {
+    margin: 15px;
+    font-size: 16px;
+}
+main .show .show-ul li p{
+    text-align: left;
+    line-height: 24px;
+}
+main .show .flip{
+    margin: 30px;
+}
+main .show .flip li{
+    display: inline-block;
+    margin: 0 5px;
+}
+main .show .flip li a{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+main .show .flip li:first-child a{
+    background-color: #396;
+}
+main .show .flip li:hover a{
+    background-color: #396;
+}
+
+/*pal 战略伙伴*/
+main .pal{
+    margin-top: 130px;
+}
+main .pal h3{
+    margin-bottom: 65px;
+    font-size: 16px;
+}
+main .pal ul{
+    border: 1px solid #ddd;
+    border-radius:5px;
+    margin-bottom:200;
+    font-size: 40px;
+    background-color: #fff;
+}
+main .pal ul li{
+    display: inline-block;
+    width: 239px;
+    line-height: 178px;
+}
+main .pal ul li img{
+    vertical-align: middle;
+}
+main .pal ul li:hover{
+    position: relative;
+    box-shadow: 0 0 5px 5px #ccc;
+}
+
+/*link 友情链接*/
+main .link{
+    margin-top: 100px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    height: 130px;
+    background-color: #fff;
+
+}
+main .link h3{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+main .link ul li{
+    float: left;
+    line-height: 30px;
+    width: 120px;
+
+}
+main .link ul li span{
+    display: inline-block;
+    margin-right: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #396;
+}
+main .link ul li a{
+    color: #396;
+}
+main .link ul li a:hover{
+    text-decoration: underline ;
+}

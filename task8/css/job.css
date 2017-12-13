@@ -1,0 +1,154 @@
+body{
+    background-color: #fafafa;
+}
+
+nav{
+    background-color: #26a26f;
+}
+
+/*职业菜单开始*/
+.job-menu{
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+.job-menu span{
+    float: left;
+    margin: 20px 0;
+    color: #bbb;
+}
+.job-menu ul{
+    float: left;
+    margin: 20px 0;
+}
+.job-menu ul li{
+    float: left;
+}
+.job-menu ul li a{
+    display: block;
+    line-height:16px;
+    margin:0 20px;
+    padding: 3px;
+}
+.job-menu ul li.current a{
+    background-color: #29b078;
+}
+/*职业菜单结束*/
+
+/*职业信息开始*/
+.job-info{
+    padding-bottom: 150px;
+}
+.job-info dl{
+    overflow: hidden;
+    /*height: 1000px;*/
+}
+.job-info dl dt h2{
+    line-height:80px;
+    font-size: 16px;
+    font-weight:700;
+    border-bottom: 1px solid #ccc;
+}
+.job-info dl dd{
+    overflow: hidden;
+}
+.job-info dl dd ul{
+
+}
+.job-info dl dd ul li{
+    float: left;
+    margin-top: 47px;
+    margin-left: 27px;
+    width: 382px;
+    height: 424px;
+    font-size: 12px;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+.job-info dl dd ul li:nth-of-type(3n-2){
+    margin-left:0;
+}
+.job-info dl dd ul li .head{
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    border-radius: 5px 5px 0 0;
+    /*background-color: #fff;*/
+}
+.job-info dl dd ul li .head img{
+    float: left;
+    width: 140px;
+    height: 140px;
+}
+.job-info dl dd ul li .head .right{
+    float: right;
+    width: 190px;
+}
+.job-info dl dd ul li .head .right h3{
+    font-size: 16px;
+    line-height: 40px;
+}
+.job-info dl dd ul li .head .right p{
+    line-height: 20px;
+    font-size: 14px;
+}
+.job-info table{
+    border-collapse: collapse;/*合并边框*/
+    width: 100%;
+    font-size: 14px;
+
+}
+.job-info table,.job-info td{
+    border: 1px solid #ccc;
+
+}
+.job-info table td{
+    padding:0 10px;
+    line-height: 35px;
+}
+table .a{
+    width:50%;
+}
+table .b{
+    width:30%;
+    text-align: center;
+}
+table .left{
+    float: left;
+}
+table .right{
+    float: right;
+}
+table i{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+    width: 16px;
+    height: 16px;
+    background: url(../images/5jx.png);
+}
+table .bold{
+    font-weight:700;
+}
+table .red{
+    color: red;
+}
+table .gray{
+    color: gray;
+}
+
+.job-info dl ul .footer{
+    display: inline-block;
+    padding:0 10px;
+    width:calc(100% - 22px);
+    line-height:35px;
+    font-size: 12px;
+    color: gray;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+/*职业信息结束*/

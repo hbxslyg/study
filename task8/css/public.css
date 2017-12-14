@@ -43,10 +43,10 @@ a{
     vertical-align: middle;
 }
 
-/*nav*/
+/*nav 开始*/
 nav{
     overflow: hidden;
-    background-color: green;
+    background-color: #26a26f;
 }
 nav h1{
     float: left;
@@ -77,9 +77,9 @@ nav ul li a{
 nav ul li:hover{
     border-bottom: 3px solid #fff;
 }
+/*nav 结束*/
 
-
-/*footer*/
+/*footer 开始*/
 footer{
     position: relative;
     padding-top: 40px;
@@ -104,22 +104,19 @@ footer .f-left ul{
 }
 footer .f-left ul li{
     float: left;
-    padding:0 5px;
-    line-height:12px;
-    border-right: 1px solid #fff;
-}
-footer .f-left ul li:last-child{
-    border: 0 solid #000;
-}
-footer .f-left ul li:first-child{
-    padding-left:0;
-}
-footer .f-left ul li a{
-    color: #fff;
+    line-height:20px;
     font-size: 12px;
 }
+footer .f-left ul li a{
+    display: inline-block;
+    color: #fff;
+}
+footer .f-left ul li span{
+    margin:0 5px;
+    color: #fff;
+}
 footer .f-left ul li a:hover{
-    text-decoration:underline;
+    border-bottom: 1px solid #fff;
 }
 footer .f-middle {
     float: left;
@@ -131,14 +128,17 @@ footer .f-middle p{
 }
 footer .f-middle ul li{
     margin-bottom: 20px;
+    height: 20px;
 }
 footer .f-middle ul li a{
+    display: inline-block;
     margin-right: 30px;
     color: #fff;
     font-size: 12px;
+    line-height: 20px;
 }
 footer .f-middle ul li a:hover{
-    text-decoration: underline;
+    border-bottom: 1px solid #fff;
 }
 footer .f-right{
     position: absolute;
@@ -167,8 +167,9 @@ footer .f-bottom p a{
 footer .f-bottom p a:hover{
     text-decoration: underline;
 }
+/*footer 结束*/
 
-/*subnav star*/
+/*subnav 开始*/
 .subnav {
     padding-left: 20px;
     line-height: 80px;
@@ -181,4 +182,4 @@ footer .f-bottom p a:hover{
 .subnav ol li.current a{
     color: #29b078;
 }
-/*subnav end*/
+/*subnav 结束*/
